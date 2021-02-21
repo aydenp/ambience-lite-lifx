@@ -2,6 +2,10 @@
 
 A very lightweight Node.js script to influence a Lifx lighstrip using the colours from your computer's display, creating an ambient extension of your monitor.
 
+Here's a demo using a very low-quality image from Google Image search:
+
+![Ambience in action](assets/demo.jpg)
+
 I wrote this in about 10 minutes at midnight, so it might not be the best code, and it definitely isn't performant. Running it might slow your computer a bit.
 
 This may not work with all Lifx products. I have only tested with a LIFX Z lightstrip. Your results may vary.
