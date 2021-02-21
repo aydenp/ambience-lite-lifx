@@ -29,8 +29,10 @@ If you don't know the MAC and IP address of your lights, don't worry: the script
 If you can't get it to work, verify the following:
 
 1. You've followed all the steps in [Getting started](#getting-started).
-2. Your computer and light are on the same network (LAN).
-3. Your lights aren't currently displaying any preset theme (you can check & disable these in the Lifx mobile app).
+2. Your lights are multi-zone (can display multiple colours at once).
+3. Your computer and light are on the same network (LAN).
+4. Your lights aren't currently displaying any preset theme (you can check & disable these in the Lifx mobile app).
+5. Your lights are on the latest firmware.
 
 If you still can't get it to work, feel free to email me! If you think it's a bug or other code-related issue, see below.
 
