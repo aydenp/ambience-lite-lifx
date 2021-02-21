@@ -36,6 +36,7 @@ const tick = async (device) => {
                 return { title: d.deviceInfo.label, value: d, description: `${d.deviceInfo.productName} - ${d.ip}/${d.mac}` }
             })
         }]);
+        if (!device) return process.exit(0);
         console.log(`TIP: In the future, you can skip the device selection by placing 'LIFX_DEVICE_MAC=${device.mac} LIFX_DEVICE_IP=${device.ip}' before the script.`)
         return device;
     };
